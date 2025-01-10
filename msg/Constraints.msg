@@ -11,10 +11,10 @@ OrientationConstraint[] orientation_constraints
 
 VisibilityConstraint[] visibility_constraints
 
-geometry_msgs/Pose in_hand_poses[]
+geometry_msgs/Pose[] in_hand_poses
 
 # we only consider one object pose for one foliation for now
-geometry_msgs/Pose object_poses[]
+geometry_msgs/Pose[] object_poses
 
 shape_msgs/Mesh object_mesh
 
