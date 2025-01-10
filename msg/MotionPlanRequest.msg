@@ -17,6 +17,9 @@ Constraints[] goal_constraints
 # No state at any point along the path in the produced motion plan will violate these constraints (this applies to all points, not just waypoints)
 Constraints path_constraints
 
+# a sequence of foliation constraint
+Constraints[] foliation_constraints
+
 # The constraints the resulting trajectory must satisfy
 TrajectoryConstraints trajectory_constraints
 
